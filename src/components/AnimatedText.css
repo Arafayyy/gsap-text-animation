@@ -1,0 +1,43 @@
+.text-container {
+    position: relative;
+    font-size: 150px;
+    font-weight: bold;
+    white-space: nowrap;
+  }
+  
+  .text-layer {
+    position: absolute;
+    margin-left: 15%;
+    margin-top: 12%;
+  }
+  
+  .text-back-3 {
+    color: #D43120;
+    transform: translateX(48px);
+    -webkit-text-stroke: 1px #11161F;
+  }
+  
+  .text-back-2 {
+    color: #0C49D3;
+    transform: translateX(33px);
+    -webkit-text-stroke: 1px #11161F;
+}
+
+.text-back-1 {
+  color: #3FB4F6;
+  transform: translateX(18px);
+  -webkit-text-stroke: 1px #11161F;
+}
+  
+  .text-front {
+    color: #F7F7F8;
+    -webkit-text-stroke: 1px #11161F;
+  }
+  
+  /* Make sure the spans are inline-block and stretch from the center */
+  span {
+    display: inline-block;
+    transform-origin: center center;  /* Stretch from the center of each letter */
+    vertical-align: middle;           /* Keep letters aligned properly */
+  }
+  
